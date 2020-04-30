@@ -6,7 +6,7 @@ model RCcircuit
   type Capacitance=Real(unit="C");
   
   parameter Voltage Vb = 1 "Battery voltage";
-  parameter Resistance R = 100;
+  parameter Resistance R = 150;
   parameter Capacitance C = 2e-3;
   
   Current i;
